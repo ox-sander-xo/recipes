@@ -1,24 +1,80 @@
-body{
-    background-color: rgba(249, 223, 207, 0.9);
-}
-h1, h2, h3 {
-    text-align: center;
-    font-weight: 900;
-    font-family :fantasy, 'Times New Roman', Times, serif;
-    color: rgba(66, 157, 32, 0.956);
+body {
+  background-color: rgba(249, 223, 207, 0.9);
+  font-family: fantasy, "Times New Roman", Times, serif;
+  color: rgba(65, 157, 32, 0.694);
 }
 
-.font, li, p { 
-    color: rgba(66, 157, 32, 0.956);
-    font-family :fantasy, 'Times New Roman', Times, serif
+h1,
+h2,
+h3 {
+  border-bottom: solid 2px rgba(65, 157, 32, 0.694);
+  /* text-align: center; */
+  font-weight: 900;
+  color: rgba(41, 90, 23, 0.77);
+  display: flex;
+  justify-content: center;
 }
+
+button {
+  background-color: rgba(168, 163, 227, 0.383);
+  padding: 4px 12px;
+  color: rgb(226, 43, 58);
+  border: solid green 1px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.list li {
+  flex: none;
+  margin: 13px;
+}
+
+
+.steps {
+  display: flex;
+}
+
+.steps .ingredients {
+  background-color:rgba(235, 191, 133, 0.857);
+  border-right: 4px grey solid;
+  border-bottom: 6px gray solid;
+  border-radius: 4px;
+  padding: 8px;
+  flex: 1
+}
+
+.steps .directions {
+  background-color: rgba(222, 184, 135, 0.536);
+  border-right: 4px grey solid;
+  border-bottom: 6px gray solid;
+  border-radius: 4px;
+  padding: 8px;
+  flex: 1
+}
+
 
 img {
-    margin: auto;
-    display: block;
+  margin: auto;
+  display: block;
+  padding: 4px;
+  border: black solid 3px;
+  border-radius: 16px;
+  max-height: 300px;
 }
 
 #no-style {
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
